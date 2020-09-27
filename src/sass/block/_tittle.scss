@@ -1,0 +1,16 @@
+.tittle{
+	font-size: 35px;
+	font-weight: bold;
+	color: $second-color;
+	text-align: center;
+	text-transform: uppercase;
+}
+.linebox{
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+	height: 5px;
+	border: none;
+	background-color: $main-color;
+	margin-bottom: 50px;
+}
