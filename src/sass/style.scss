@@ -7,13 +7,61 @@
 }
 
 @import 'base/variables';
-
 @import 'libs/animate';
-
 @import 'block/header';
 @import 'block/promo';
 @import 'block/buttons';
 @import 'block/about';
 @import 'block/tittle';
 @import 'block/skils';
+@import 'block/portfolio';
+@import 'block/contacts';
+@import 'block/footer';
 
+// #skills {
+// 	padding: 80px 0;
+// 	background: url(../img/skills-bg.jpg);
+// 	background-size: cover;
+// 	background-attachment: fixed;
+// }
+// #skills p {
+// 	color: #474d5d;
+// }
+// #skills .skill {
+// 	margin-bottom: 40px;
+// 	text-align: center;
+// 	padding: 0px;
+// }
+// #skills .skill h4 {
+// 	font-weight: 700;
+// 	color: #E87E04;
+// 	text-shadow: 1px 1px #fff;
+// }
+
+
+
+//   .chart {
+// 	position: relative;
+// 	display: inline-block;
+// 	width: 152px;
+// 	height: 152px;
+// 	margin-bottom: 26px;
+// 	text-align: center;
+// }
+// .chart canvas {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// }
+// .percent {
+// 	display: inline-block;
+// 	font-size: 21px;
+// 	color: #474d5d;
+// 	line-height: 152px;
+// 	z-index: 2;
+// }
+// .percent:after {
+// 	content: '%';
+// 	margin-left: 0.1em;
+// 	font-size: .8em;
+// }

@@ -1,42 +1,54 @@
 .promo{
-	min-height: 500px;
+	height: 550px;
 	background: url('/src/img/t6.png') center (center/cover) no-repeat;
 	opacity: 0.8;
 	top: 50px;
 	padding: 90px 75px;
 	&__img{
-		display: block;
-		width: 400px;
+		// position: absolute;
 		float: right;
-		margin-right: 50px;
-	}
-	&__tittle{
-		display: block;
-		margin: 0 auto;
-		font-size: 60px;
-		font-weight: 800;
-		color: #A62D00;
-		text-align: center;
-		padding-top: 200px;	
+		top: 25%;
+		right: 50px;
+		width: 400px;
+		height: 400px;
+		z-index: 1;
 	}
 	&__descr{
+		position: absolute;
 		float: center;
 		//width: 600px;
 		font-size: 24px;
 		font-weight: 400;
 		color: #A62D00;
 		text-align: center;
-		margin-bottom: 50px;
+		top: 50%;
+		left: 23%;
 	}
+}
 .button{
 	display: block;
 	margin: 0 auto;
+	position: absolute;
+	top: 60%;
+	left: 30%;
 
 }
+.main-title {
+	position: absolute;
+	font-size: 60px;
+	font-weight: 800;
+	color: #A62D00;
+	text-align: center;
+	text-align: center;
+	top: 200px;
+	left: 10%;
+}
 
-
-
-
-
-
+#demo-canvas{
+	width: 70%;
+	height: 500px;
+	margin-top: -41px;
+	margin-bottom: 5px;
+	margin-left: -76px;
+	margin-right: 5px;
 }

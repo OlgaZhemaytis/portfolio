@@ -1,0 +1,24 @@
+.social{
+	min-height: 100px;
+	background-color: $main-color;
+	margin: 0 auto;
+	
+	display: flex;
+	justify-content: center;
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 700px;
+		margin: 20px 60px;
+		
+		
+		
+	}
+	&__img{
+		display: block;
+		width: 64px;
+		height: 64px;
+	}
+	
+}
